@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+*.bak
+*.bak2
+01_catalog_raw/
+01_catalog_raw_2/
+02_assets_optimized/brand/hero-candidates/

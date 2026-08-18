@@ -1,0 +1,55 @@
+/* Hallmark · Dream World design tokens · genre: editorial-luxury · theme: custom (brand) */
+:root{
+  /* paper / ink — warm-neutral, never pure */
+  --color-paper:      oklch(95.5% 0.012 85);   /* ivory #F6F1E9 */
+  --color-paper-2:    oklch(92%   0.014 80);   /* card cream */
+  --color-paper-3:    oklch(88%   0.016 78);   /* hover / rule */
+  --color-ink:        oklch(26%   0.035 265);  /* midnight indigo #1C2438 */
+  --color-ink-2:      oklch(40%   0.030 265);  /* secondary text */
+  --color-ink-soft:   oklch(52%   0.022 262);  /* muted / captions */
+
+  /* accent — brass (ties to logo) + sage support */
+  --color-accent:     oklch(63%   0.075 74);   /* brass #B08D57 */
+  --color-accent-2:   oklch(70%   0.085 72);   /* lighter brass */
+  --color-accent-ink: oklch(46%   0.065 70);   /* brass on light for text */
+  --color-sage:       oklch(68%   0.030 160);  /* soft sage */
+  --color-night:      oklch(22%   0.030 265);  /* near-black indigo (logo bg) */
+
+  /* functional */
+  --color-focus:      oklch(63% 0.075 74);
+  --color-line:       oklch(84% 0.015 78);
+
+  /* type */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body:    "Manrope", system-ui, -apple-system, sans-serif;
+
+  --text-xs:  0.78rem;
+  --text-sm:  0.9rem;
+  --text-base:1rem;
+  --text-lg:  1.15rem;
+  --text-xl:  1.4rem;
+  --text-2xl: 1.9rem;
+  --text-3xl: 2.6rem;
+  --text-4xl: clamp(2.6rem, 6vw, 4.4rem);
+  --text-display: clamp(3.2rem, 9vw, 7rem);
+
+  /* space — 4pt scale */
+  --space-2:.5rem; --space-3:.75rem; --space-4:1rem; --space-6:1.5rem;
+  --space-8:2rem; --space-12:3rem; --space-16:4rem; --space-20:5rem;
+  --space-28:7rem; --space-36:9rem;
+
+  /* shape / depth */
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px oklch(26% 0.03 265 / .06), 0 4px 14px oklch(26% 0.03 265 / .05);
+  --shadow-md: 0 10px 30px oklch(26% 0.03 265 / .10);
+  --rule: 1px solid var(--color-line);
+
+  /* motion */
+  --ease-out: cubic-bezier(.16,.84,.44,1);
+  --ease-in:  cubic-bezier(.5,0,.75,0);
+  --ease-in-out: cubic-bezier(.65,0,.35,1);
+  --dur-fast: 180ms; --dur: 320ms; --dur-slow: 620ms;
+
+  --maxw: 1180px;
+}

@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded product photos are stored, and how the site links to them.
+media_folder: "05_build/assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+# After every save, Netlify rebuilds the site automatically (see netlify.toml).
+publish_mode: simple
+
+collections:
+  - name: "products"
+    label: "Products"
+    label_singular: "Product"
+    folder: "content/products"
+    create: true
+    delete: true
+    slug: "{{fields.sku}}"
+    summary: "{{name}} — {{category}}"
+    identifier_field: name
+    fields:
+      - { label: "Product name", name: "name", widget: "string", hint: "Shown to customers, e.g. \"Camellia Storage Bed\"" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Beds", value: "beds" }
+          - { label: "Sofas", value: "sofas" }
+          - { label: "Sofa-cum-Bed", value: "sofa-cum-bed" }
+          - { label: "Loungers", value: "loungers" }
+          - { label: "Center Tables", value: "tables" }
+          - { label: "Mattress", value: "mattress" }
+          - { label: "Pillow & Cushion", value: "pillow-cushion" }
+          - { label: "Dining Table", value: "dining-table" }
+          - { label: "TV Cabinet", value: "tv-cabinet" }
+      - label: "Price (₹)"
+        name: "price"
+        widget: "number"
+        required: false
+        hint: "Leave blank to show \"Enquire for price\" instead of a fixed amount."
+      - label: "Description"
+        name: "specs"
+        widget: "text"
+        hint: "What the customer sees below the price, e.g. materials, size, warranty."
+      - { label: "Photo", name: "image", widget: "image", hint: "Square-ish photos look best." }
+      - { label: "SKU (internal, don't change on existing products)", name: "sku", widget: "string" }

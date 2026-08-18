@@ -1,0 +1,35 @@
+sku,category,draft_name,price_inr,specs,image_file,source_image,image_quality,needs,notes
+DW-BED-01,beds,Bed Design 01,22000,"Top 15mm ply, sides 12mm, down 9mm, plyboard work",bed-01.jpg,00000038-PHOTO-2026-07-31-18-15-34.jpg,OK,"name, size, colours, material, warranty","Cream shell headboard, storage"
+DW-BED-02,beds,Bed Design 02,23000,Storage drawer bed,bed-02.jpg,00000040-PHOTO-2026-07-31-18-15-58.jpg,OK,"name, size, colours, material, warranty","Beige leatherette, tufted, drawer"
+DW-BED-03,beds,Bed Design 03,18000,"Hydraulic/drawer storage, LED headboard",bed-03.jpg,00000042-PHOTO-2026-07-31-18-16-17.jpg,OK,"name, size, colours, material, warranty","Wood-tone, warm room render"
+DW-BED-04,beds,Bed Design 04,26000,"Wingback, gold trim, diamond-quilt sides",bed-04.jpg,00000044-PHOTO-2026-07-31-18-16-36.jpg,OK,"name, size, colours, material, warranty","Cream, most premium bed"
+DW-BED-05,beds,Bed Design 05,20000,"Wingback channel headboard, gold piping",bed-05.jpg,00000046-PHOTO-2026-07-31-18-16-59.jpg,OK,"name, size, colours, material, warranty","Cream+brown, arch window scene"
+DW-BED-06,beds,Bed Design 06,22000,"Channel-tufted wing headboard, gold trim",bed-06.jpg,00000048-PHOTO-2026-07-31-18-18-18.jpg,OK,"name, size, colours, material, warranty","Grey, night scene"
+DW-BED-07,beds,Bed Design 07,22000,Vertical channel velvet headboard,bed-07.jpg,00000050-PHOTO-2026-07-31-18-18-37.jpg,OK,"name, size, colours, material, warranty","Black velvet, classic room"
+DW-BED-08,beds,Bed Design 08,18000,"Fluted fan headboard, gold legs",bed-08.jpg,00000052-PHOTO-2026-07-31-18-19-06.jpg,OK,"name, size, colours, material, warranty","Grey velvet, bright room"
+DW-BED-09,beds,Bed Design 09,17000,Cushion wingback headboard,bed-09.jpg,00000054-PHOTO-2026-07-31-18-23-43.jpg,OK,"name, size, colours, material, warranty","Cream, minimal beige room"
+DW-BED-10,beds,Bed Design 10,18000,"Diamond-quilt headboard, gold frame",bed-10.jpg,00000056-PHOTO-2026-07-31-18-24-07.jpg,WATERMARK,"name, size, colours, material, warranty",Grey; 'LUXURY HOME' watermark
+DW-BED-11,beds,Bed Design 11,20000,"Fluted headboard, gold legs",bed-11.jpg,00000058-PHOTO-2026-07-31-18-25-07.jpg,OK,"name, size, colours, material, warranty","Grey, white bright room"
+DW-SOF-01,sofas,Sofa Design 01,35000,"40-density foam, leatherette, thick wood, 5yr warranty",sofa-01.jpg,00000060-PHOTO-2026-07-31-18-26-34.jpg,SCREENSHOT,"name, size, colours, material, warranty",Cream sectional; app status bar
+DW-SOF-02,sofas,Sofa Design 02,30000,Curved modular sectional,sofa-02.jpg,00000062-PHOTO-2026-07-31-18-26-58.jpg,SCREENSHOT,"name, size, colours, material, warranty",Cream curved; app status bar
+DW-SOF-03,sofas,Sofa Design 03,35000,L-shape 6-seat set + 2 poufs + glass center table,sofa-03.jpg,00000064-PHOTO-2026-07-31-18-27-20.jpg,OK,"name, size, colours, material, warranty",Blue; real showroom photo
+DW-SOF-04,sofas,Sofa Design 04,16000,Accent tub-chair pair (sofa only),sofa-04.jpg,00000066-PHOTO-2026-07-31-18-27-45.jpg,WATERMARK,"name, size, colours, material, warranty",Green velvet; 'PIZAP' watermark
+DW-SOF-05,sofas,Sofa Design 05,18000,Accent chair pair,sofa-05.jpg,00000068-PHOTO-2026-07-31-18-28-13.jpg,LOWRES,"name, size, colours, material, warranty",Grey; composited room
+DW-SOF-06,sofas,Sofa Design 06,25000,3-piece sofa set (1+2+... ),sofa-06.jpg,00000070-PHOTO-2026-07-31-18-28-40.jpg,LOWRES,"name, size, colours, material, warranty",Orange; composited room
+DW-SOF-07,sofas,Sofa Design 07,25000,Office/parlour leatherette set (3+1+1),sofa-07.jpg,00000076-PHOTO-2026-07-31-21-10-45.jpg,OK,"name, size, colours, material, warranty",Beige; clean product photo
+DW-SOF-08,sofas,Sofa Design 08,30000,L-shape fabric sectional,sofa-08.jpg,00000078-PHOTO-2026-07-31-21-10-58.jpg,WATERMARK,"name, size, colours, material, warranty",Beige; 'MADE IN INDIA' watermark
+DW-SOF-09,sofas,Sofa Design 09,30000,Sofa set 3+1+1 with center table,sofa-09.jpg,00000080-PHOTO-2026-07-31-21-11-14.jpg,OK,"name, size, colours, material, warranty",Beige leatherette; clean
+DW-SOF-10,sofas,Sofa Design 10,32000,Leather sofa set 3+1+1 + wood center table,sofa-10.jpg,00000082-PHOTO-2026-07-31-21-11-35.jpg,OK,"name, size, colours, material, warranty",Tan/brown; clean
+DW-LOU-01,loungers,Lounger Design 01,17000,Roll-arm chaise lounge,lounger-01.jpg,00000084-PHOTO-2026-07-31-21-12-15.jpg,SCREENSHOT,"name, size, colours, material, warranty",Cream; Amazon screenshot
+DW-LOU-02,loungers,Lounger Design 02,18000,"Shell-back chaise lounge, gold legs",lounger-02.jpg,00000086-PHOTO-2026-07-31-21-12-27.jpg,SCREENSHOT,"name, size, colours, material, warranty",Blue velvet; app status bar
+DW-LOU-03,loungers,Lounger Design 03,18000,"Chesterfield tufted chaise, turned legs",lounger-03.jpg,00000088-PHOTO-2026-07-31-21-12-38.jpg,SCREENSHOT,"name, size, colours, material, warranty",Beige; app status bar
+DW-LOU-04,loungers,Lounger Design 04,18000,Chesterfield tufted chaise (dup of 088 image),lounger-04.jpg,00000090-PHOTO-2026-07-31-21-12-50.jpg,LOWRES,"name, size, colours, material, warranty",Cream; same photo as 088
+DW-LOU-05,loungers,Lounger Design 05,20000,Roll-arm storage chaise,lounger-05.jpg,00000092-PHOTO-2026-07-31-21-13-01.jpg,LOWRES,"name, size, colours, material, warranty",Mauve/pink
+DW-LOU-06,loungers,Lounger Design 06,16000,"Modern chaise lounge, bolster",lounger-06.jpg,00000094-PHOTO-2026-07-31-21-13-21.jpg,LOWRES,"name, size, colours, material, warranty",Teal/green
+DW-LOU-07,loungers,Lounger Design 07,16000,"Chesterfield chaise, turned legs",lounger-07.jpg,00000096-PHOTO-2026-07-31-21-13-46.jpg,LOWRES,"name, size, colours, material, warranty",Navy velvet
+DW-TAB-01,tables,Table Design 01,18000,Sheesham wood center table with shelf,table-01.jpg,00000098-PHOTO-2026-07-31-21-14-05.jpg,WATERMARK,"name, size, colours, material, warranty",'KHATICRAFT' watermark
+DW-TAB-02,tables,Table Design 02,5000,Small wooden 4-leg table,table-02.jpg,00000107-PHOTO-2026-08-01-14-13-21.jpg,LOWRES,"name, size, colours, material, warranty","Plain, radiator scene"
+DW-TAB-03,tables,Table Design 03,8000,Carved wood glass-top coffee table,table-03.jpg,00000109-PHOTO-2026-08-01-14-13-39.jpg,LOWRES,"name, size, colours, material, warranty",Ornate carved base
+DW-TAB-04,tables,Table Design 04,8000,"Live-edge small coffee table, U legs",table-04.jpg,00000111-PHOTO-2026-08-01-14-14-20.jpg,LOWRES,"name, size, colours, material, warranty",Acacia + black legs
+DW-TAB-05,tables,Table Design 05,6000,Carved wood glass-top table frame,table-05.jpg,00000113-PHOTO-2026-08-01-14-14-41.jpg,LOWRES,"name, size, colours, material, warranty",Traditional carved
+DW-TAB-06,tables,Table Design 06,8000,Sheesham slatted coffee table with shelf,table-06.jpg,00000115-PHOTO-2026-08-01-14-15-00.jpg,OK,"name, size, colours, material, warranty",Honey sheesham
