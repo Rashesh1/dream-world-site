@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Rashesh1/dream-world-site
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 # Where uploaded product photos are stored, and how the site links to them.
 media_folder: "05_build/assets/img/uploads"
