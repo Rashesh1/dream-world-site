@@ -37,6 +37,7 @@ collections:
           - { label: "Pillow & Cushion", value: "pillow-cushion" }
           - { label: "Dining Table", value: "dining-table" }
           - { label: "TV Cabinet", value: "tv-cabinet" }
+          - { label: "Interior", value: "interior" }
       - label: "Price (₹)"
         name: "price"
         widget: "number"

@@ -163,7 +163,8 @@
               loungers:"assets/img/products/lounger-07.jpg", tables:"assets/img/products/table-06.jpg",
               "sofa-cum-bed":"assets/img/categories/sofa-cum-bed.jpg", mattress:"assets/img/categories/mattress.jpg",
               "pillow-cushion":"assets/img/products/pillow-02-comfort-cool.jpg",
-              "dining-table":"assets/img/categories/dining-table.jpg", "tv-cabinet":"assets/img/categories/tv-cabinet.jpg" };
+              "dining-table":"assets/img/categories/dining-table.jpg", "tv-cabinet":"assets/img/categories/tv-cabinet.jpg",
+              interior:"assets/img/categories/interior.jpg" };
   var THUMB_SOON={ interior:"assets/img/categories/interior.jpg" };
   function categories(){
     var g=document.getElementById("cat-grid"); if(!g) return;

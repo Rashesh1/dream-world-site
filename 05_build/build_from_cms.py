@@ -12,12 +12,12 @@ BUILD = ROOT / "05_build"
 
 CAT_LABELS = {"beds":"Beds","sofas":"Sofas","loungers":"Loungers","tables":"Center Tables",
               "sofa-cum-bed":"Sofa-cum-Bed","mattress":"Mattress","pillow-cushion":"Pillow & Cushion",
-              "dining-table":"Dining Table","tv-cabinet":"TV Cabinet"}
+              "dining-table":"Dining Table","tv-cabinet":"TV Cabinet","interior":"Interior"}
 CAT_TAGS = {"beds":"Upholstered & storage","sofas":"Sets & sectionals","loungers":"Chaise & diwan",
             "tables":"Solid wood","sofa-cum-bed":"Space-saving convertibles","mattress":"Memory foam & spring",
             "pillow-cushion":"Comfort essentials","dining-table":"Solid wood dining sets",
-            "tv-cabinet":"Wall units & entertainment units"}
-CATEGORY_ORDER = ["beds","sofas","sofa-cum-bed","loungers","tables","mattress","pillow-cushion","dining-table","tv-cabinet"]
+            "tv-cabinet":"Wall units & entertainment units","interior":"Custom carpentry & wall units"}
+CATEGORY_ORDER = ["beds","sofas","sofa-cum-bed","loungers","tables","mattress","pillow-cushion","dining-table","tv-cabinet","interior"]
 CATEGORY_THUMB = {
     "beds":"assets/img/products/bed-04.jpg", "sofas":"assets/img/products/sofa-03.jpg",
     "loungers":"assets/img/products/lounger-07.jpg", "tables":"assets/img/products/table-06.jpg",
@@ -35,6 +35,7 @@ CATEGORY_DESCRIPTIONS = {
     "pillow-cushion": "Comfort essentials to match your new furniture. Enquire on WhatsApp for current pricing and options.",
     "dining-table": "Solid wood dining sets, made to order — any seating capacity, wood tone and upholstery to match your dining room.",
     "tv-cabinet": "Custom-built TV units and wall panelling, carpentered to your room. Every design shown is a real job we've built — enquire with your room size for a quote.",
+    "interior": "Custom carpentry and wall units, built to your room. Enquire on WhatsApp with your space and requirements for a quote.",
 }
 
 def parse_frontmatter(fm_text):
@@ -102,7 +103,9 @@ def main():
         "owner": {"name": "Ramesh Chaturvedi", "role": "Founder, Dream World", "img": "assets/img/brand/owner.jpg"},
         "categories": categories,
         "categoriesComingSoon": [
-            {"slug": "interior", "label": "Interior", "tag": "Custom carpentry & wall units"},
+            c for c in [
+                {"slug": "interior", "label": "Interior", "tag": "Custom carpentry & wall units"},
+            ] if c["slug"] not in present_cats
         ],
         "categoryDescriptions": CATEGORY_DESCRIPTIONS,
     }

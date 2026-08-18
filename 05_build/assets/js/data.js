@@ -78,7 +78,8 @@ window.DW_CONFIG = {
     "mattress": "A range of memory foam, latex and spring mattresses, each with a genuine spec sheet. Enquire on WhatsApp for current pricing — size and firmness can be tailored to you.",
     "pillow-cushion": "Comfort essentials to match your new furniture. Enquire on WhatsApp for current pricing and options.",
     "dining-table": "Solid wood dining sets, made to order — any seating capacity, wood tone and upholstery to match your dining room.",
-    "tv-cabinet": "Custom-built TV units and wall panelling, carpentered to your room. Every design shown is a real job we've built — enquire with your room size for a quote."
+    "tv-cabinet": "Custom-built TV units and wall panelling, carpentered to your room. Every design shown is a real job we've built — enquire with your room size for a quote.",
+    "interior": "Custom carpentry and wall units, built to your room. Enquire on WhatsApp with your space and requirements for a quote."
   }
 };
 
