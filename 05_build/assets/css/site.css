@@ -133,6 +133,11 @@ button{font-family:inherit}
    Mobile stacking/logo is untouched. */
 @media (min-width:961px){
   .hero-logo,.hero-logo-fallback{display:none}
+  /* the engraved logo in the photo sits in the upper ~49% of the frame —
+     anchor content from a fixed offset instead of true vertical centering,
+     so the headline reliably clears it regardless of viewport height */
+  .hero{align-items:flex-start;justify-content:center;height:100svh;min-height:600px}
+  .hero-content{padding-top:calc(58vh + 20px)}
   .hero-eyebrow{order:4;margin-top:0;margin-bottom:var(--space-2)}
   .hero h1{order:2;margin-top:0}
   .hero .lede{order:3}
