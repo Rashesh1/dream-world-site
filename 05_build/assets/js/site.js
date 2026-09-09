@@ -357,6 +357,26 @@
     }
   }
 
+  /* ---------- align hero scroll-cue with the gap between the two hero buttons
+     (buttons differ in width - icon vs text-only - so their midpoint isn't
+     the same as the viewport's 50%) ---------- */
+  function heroScrollAlign(){
+    var scroll=document.querySelector(".hero-scroll");
+    var actions=document.querySelector(".hero-actions");
+    if(!scroll || !actions) return;
+    var btns=actions.querySelectorAll(".btn");
+    if(btns.length<2) return;
+    function place(){
+      var r1=btns[0].getBoundingClientRect(), r2=btns[btns.length-1].getBoundingClientRect();
+      if(Math.abs(r1.top-r2.top)>4){ scroll.style.left=""; return; } // wrapped onto separate lines - use default centering
+      var mid=(r1.right+r2.left)/2;
+      scroll.style.left=mid+"px";
+    }
+    place();
+    window.addEventListener("resize",place);
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(place);
+  }
+
   /* ---------- reveal observer ---------- */
   var io;
   function observe(){
@@ -365,5 +385,5 @@
     document.querySelectorAll(".reveal:not(.in)").forEach(function(n){io.observe(n);});
   }
 
-  header(); footer(); floatWA(); categories(); featured(); collection(); productDetail(); instagram(); owner(); reviews(); visit(); links(); observe();
+  header(); footer(); floatWA(); categories(); featured(); collection(); productDetail(); instagram(); owner(); reviews(); visit(); links(); observe(); heroScrollAlign();
 })();
