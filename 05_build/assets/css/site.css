@@ -127,6 +127,16 @@ button{font-family:inherit}
 .hero .lede{margin-top:var(--space-4);font-size:var(--text-lg);font-weight:400;
   color:oklch(93% .012 78);max-width:40ch;text-shadow:0 1px 16px oklch(7% .02 40 / .65)}
 .hero-actions{margin-top:var(--space-8);display:flex;gap:var(--space-4);flex-wrap:wrap;justify-content:center}
+/* desktop only: keep logo clear of the headline, move the eyebrow line down
+   near the CTAs instead of crowding the logo — mobile stacking is unaffected */
+@media (min-width:961px){
+  .hero h1{margin-top:var(--space-12)}
+  .hero-eyebrow{order:4;margin-top:0;margin-bottom:var(--space-2)}
+  .hero .lede{order:3}
+  .hero-actions{order:5}
+  .hero h1{order:2}
+  .hero-logo{order:1}
+}
 /* seamless hand-off from the dark hero into the section that follows —
    the section fades in from the hero's own dark tone instead of a hard cut */
 .hero-bridge{position:relative;isolation:isolate}
