@@ -1,3 +1,16 @@
 [build]
   publish = "05_build"
   command = "python3 05_build/build_from_cms.py"
+
+# TEMPORARY: site paused. Remove the two [[redirects]] blocks below to restore the full site.
+[[redirects]]
+  from = "/unavailable.html"
+  to = "/unavailable.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/unavailable.html"
+  status = 302
+  force = true
