@@ -1,3 +1,9 @@
 [build]
   publish = "05_build"
   command = "python3 05_build/build_from_cms.py"
+
+[[redirects]]
+  from = "/*"
+  to = "/maintenance.html"
+  status = 200
+  force = true
